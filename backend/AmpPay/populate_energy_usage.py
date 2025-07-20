@@ -22,7 +22,7 @@ from AmpPay.models import EnergyUsage
 from datetime import datetime, timedelta
 import random
 
-user = User.objects.get(username='aswinHarikrishnan')
+user = User.objects.get(username='aswin')
 
 # Define parameters for data generation
 start_year = 2024
