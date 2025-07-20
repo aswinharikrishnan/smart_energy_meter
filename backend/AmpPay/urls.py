@@ -30,4 +30,6 @@ urlpatterns = [
     path('api/receive-data/', receive_data, name='receive_data'),
     path('api/predictenergyconsumption',predictenergyconsumption, name='predictenergyconsumption'),
     # path('send_data_to_arduino/', send_data_to_arduino, name='send_data_to_arduino'),
+    # path('', views.home_page),  # Add a root view
 ]
+

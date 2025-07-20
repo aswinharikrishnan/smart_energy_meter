@@ -137,3 +137,4 @@ def predictenergyconsumption(req):
 #         except ValueError:
 #             return HttpResponse("Invalid integer data provided.")
 #     return HttpResponse("Invalid request method.")
+
