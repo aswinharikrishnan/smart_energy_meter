@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AmpPay: Advanced Energy Monitoring and Management System
 
 ## Table of Contents
@@ -113,3 +114,6 @@ This project is licensed under the MIT License. For more details, please refer t
 ## Contact Information
 
 For inquiries or support, please contact:arjunajith440@gmail.com
+=======
+#demo link : https://amppay.vercel.app/
+>>>>>>> f4213596cedb7a6c8f508bd4f61b384ec2060364
