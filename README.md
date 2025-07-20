@@ -1,7 +1,9 @@
 <<<<<<< HEAD
+
 # AmpPay: Advanced Energy Monitoring and Management System
 
 ## Table of Contents
+
 1. [Introduction](#introduction)
 2. [Problem Statement](#problem-statement)
 3. [Our Solution](#our-solution)
@@ -36,23 +38,28 @@ AmpPay bridges this gap by providing an all-encompassing platform that combines 
 ## Key Features
 
 1. **Real-time Consumption Monitoring**
+
    - Instantaneous access to usage data
    - Graphical representations for intuitive understanding
    - Historical data retrieval capabilities
 
 2. **Predictive Billing System**
+
    - Machine learning-powered bill forecasting
    - Strategic planning tools for consumption adjustment
 
 3. **Comparative Efficiency Ranking**
+
    - Benchmarking against similar households
    - Promoting healthy competition for energy efficiency
 
 4. **Carbon Footprint Assessment**
+
    - kWh to CO2 conversion calculator
    - AI-driven future impact predictions
 
 5. **Intelligent Notification System**
+
    - Customizable consumption alerts
    - Actionable tips for energy conservation
 
@@ -72,22 +79,24 @@ AmpPay bridges this gap by providing an all-encompassing platform that combines 
 
 AmpPay combines robust hardware and sophisticated software to deliver a comprehensive energy management solution. Here's a breakdown of our technical components:
 
-| Hardware                | Software               |
-|-------------------------|------------------------|
-| Arduino Uno             | React (Frontend)       |
-| Current Sensor          | Django (Backend)       |
-| Voltage Sensor          | Postman (API Testing)  |
-| Wi-Fi Module            | Machine Learning Models|
-| Power Supply Unit       | Data Visualization Libraries |
-| Custom PCB              | Cloud Hosting Services |
+| Hardware          | Software                     |
+| ----------------- | ---------------------------- |
+| Arduino Uno       | React (Frontend)             |
+| Current Sensor    | Django (Backend)             |
+| Voltage Sensor    | Postman (API Testing)        |
+| Wi-Fi Module      | Machine Learning Models      |
+| Power Supply Unit | Data Visualization Libraries |
+| Custom PCB        | Cloud Hosting Services       |
 
 ### Hardware Details
+
 - **Arduino Uno**: The brain of our hardware setup, processing sensor data and communicating with the software backend.
 - **Current and Voltage Sensors**: High-precision sensors for accurate energy measurements.
 - **Wi-Fi Module**: Enables real-time data transmission to our cloud servers.
 - **Custom PCB**: Designed for optimal performance and reliability.
 
 ### Software Stack
+
 - **React**: Powers our responsive and user-friendly frontend interface.
 - **Django**: Provides a robust backend framework for data processing and API endpoints.
 - **Postman**: Used for comprehensive API testing and documentation.
@@ -102,18 +111,4 @@ This combination of hardware and software components allows AmpPay to deliver ac
 
 <img src="https://github.com/stefanbinoj/AmpPay/raw/main/build/static/media/Screenshot%20from%202024-07-12%2010-27-38.png" alt="AmpPay Hardware" width="500"/>
 
-*Figure 1: AmpPay Hardware Component*
-
-
-## License
-
-This project is licensed under the MIT License. For more details, please refer to the [LICENSE.md](LICENSE.md) file in the repository.
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-
-## Contact Information
-
-For inquiries or support, please contact:arjunajith440@gmail.com
-=======
-#demo link : https://amppay.vercel.app/
->>>>>>> f4213596cedb7a6c8f508bd4f61b384ec2060364
+_Figure 1: AmpPay Hardware Component_
