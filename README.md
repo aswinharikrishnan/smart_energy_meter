@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+<<<<<<< HEADER >>>>>>> 
 
 # AmpPay: Advanced Energy Monitoring and Management System
 
