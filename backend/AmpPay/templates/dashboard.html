@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Energy Dashboard</title>
+    <style>
+        table { width: 100%; border-collapse: collapse; }
+        th, td { padding: 8px; border: 1px solid #ddd; text-align: left; }
+        .prediction { margin-top: 20px; padding: 15px; background: #f5f5f5; }
+    </style>
+</head>
+<body>
+    <h1>Energy Monitoring Dashboard</h1>
+    
+    <h2>Recent Energy Data</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>User</th>
+                <th>Usage (kWh)</th>
+                <th>Current (A)</th>
+                <th>Power (W)</th>
+                <th>Time</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for entry in energy_data %}
+            <tr>
+                <td>{{ entry.user.username }}</td>
+                <td>{{ entry.usage_value|floatformat:2 }}</td>
+                <td>{{ entry.irms_current|floatformat:2 }}</td>
+                <td>{{ entry.irms_power|floatformat:2 }}</td>
+                <td>{{ entry.datetime|date:"Y-m-d H:i" }}</td>
+            </tr>
+            {% empty %}
+            <tr>
+                <td colspan="5">No energy data available</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    {% if prediction %}
+    <div class="prediction">
+        <h2>Consumption Prediction</h2>
+        <p>Predicted end-of-month usage: <strong>{{ prediction|floatformat:2 }} kWh</strong></p>
+    </div>
+    {% endif %}
+</body>
+</html>
