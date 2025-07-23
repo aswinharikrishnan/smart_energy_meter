@@ -13,9 +13,6 @@
 7. [Setup and Usage](#setup-and-usage)
    - [Hardware Setup](#hardware-setup)
    - [Software Setup](#software-setup)
-8. [Additional Resources](#additional-resources)
-9. [License](#license)
-10. [Contact Information](#contact-information)
 
 ---
 
